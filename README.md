@@ -1,4 +1,4 @@
-**This syllabus is effective as of Sunday, May 13, 2018 at 10:51
+**This syllabus is effective as of Wednesday, May 23, 2018 at 03:10
 PM**
 
 # DNSC 6290 Section 12<br/> Big Data <br/> the George Washington University <br/> Summer 2018
@@ -8,7 +8,7 @@ PM**
   - **Instructors:** Marck Vaisman (marck at gwu.edu)
   - **Classroom:** Duques 254
   - **Time:** Wednesday 6:00-9:00pm
-  - **TA’s:** TBD
+  - **TA’s:** Madison Turano (madly9@ at gwmail.gwu.edu)
   - **TA Office Hours:** TBD
 
 ## Course Description
@@ -162,10 +162,10 @@ You will take online quizzes about the topics/ideas discussed in class
 and from the readings. The purpose of the quizzes is to reinforce your
 knowledge about the tools and platform and also to help you remember the
 nomenclature and terms used in class. The quizzes will be online through
-Blackboard [Blackboard](https://blackboard.gwu.edu) and you can take
-them at your convenience within the established time window. In lieu of
-a final exam, there will be a longer in-class quiz that is worth more
-points during the last class session.
+[Blackboard](https://blackboard.gwu.edu) and you can take them at your
+convenience within the established time window. In lieu of a final exam,
+there will be a longer in-class quiz that is worth more points during
+the last class session.
 
 ## Assignments
 
@@ -202,9 +202,9 @@ have a [GitHub](http://www.github.com) account, please create one.
 
 ## Grading
 
-  - Problem Sets: 60% (4 problem sets at 10%, 1 problem set at 20%)
-  - Quizzes: 25% (5 quizzes at 5%)
-  - Attendance/Participation: 5% (attendance, in-class discussion,
+  - Problem Sets: 60% (4 problem sets at 15)
+  - Quizzes: 30% (5 quizzes at 6%)
+  - Attendance/Participation: 10% (attendance, in-class discussion,
     completion of in-class labs, active participation in online forums)
 
 # Course Calendar
@@ -213,18 +213,18 @@ This calendar is subject to change. We will make make any changes known
 in
 advance.
 
-| Session | Date   | Topics                                                                                                                                   | Lab                                                                                                           | Reading                                                                        | Assignment | Quiz |
-| ------: | :----- | :--------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------- | :--------- | :--- |
-|       1 | May 23 | Welcome to Big Data: Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing               | Create your cloud & GitHub accounts. Setup your environment. Install software. Create and configure SSH keys. |                                                                                |            |      |
-|       2 | May 30 | The Infrastructure of the Cloud: Overview of major Cloud Computing providers (AWS and Azure), IAAS, PAAS and SAAS, Other Cloud providers | Start and connect to your first virtual machine on the cloud                                                  |                                                                                |            |      |
-|       3 | Jun 06 | Introduction to Hadoop & MapReduce: Hadoop, Distributed filesystems, MapReduce programming model                                         | Start and connect to a Hadoop cluster, run built-in Hadoop examples, examine the different user interfaces    | Required: (Bengfort, Kim) Chapter 2                                            |            |      |
-|       4 | Jun 13 | Hadoop Streaming                                                                                                                         | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                        | Required: (Bengfort, Kim) Ch. 3                                                |            |      |
-|       5 | Jun 20 | Higher Level APIs: Pig and Hive                                                                                                          | Store a dataset in a Hive table, Run and example Pig job                                                      | Required: (Bengfort, Kim) Ch. 6,8                                              |            |      |
-|       6 | Jun 27 | Introduction to Spark: What is Spark, Resilient Distributed Datasets, PySpark                                                            | Start a PySpark session, Create RDDs, Operate on RDDs                                                         | Required: (Chambers, Zaharia) Ch. 1-3, 12, 32; Recommended: (Sankar) p.122-126 |            |      |
-|       7 | Jul 11 | SparkSQL: SQL Review, Intro to SparkSQL                                                                                                  | Perform operations on Spark dataframes using SparkSQL                                                         | Required: (Chambers, Zaharia) Ch. 10; Recommended: (Sankar) Ch. 8              |            |      |
-|       8 | Jul 18 | Machine Learning with Big Data: SparkML, Issues with ML algorithms on large datasets                                                     | Build a predictive model with SparkML                                                                         | Required: (Chambers, Zaharia) Ch. 24, 25; Recommended: (Sankar) Ch. 11         |            |      |
-|       9 | Jul 25 | Working with Streaming Datasets: Spark Streaming                                                                                         | Run real-time analytics on a data stream using Spark Streaming                                                | Required: (Chambers, Zaharia) Ch. 20, 21                                       |            |      |
-|      10 | Aug 01 | Working with Graph Datasets: GraphX API for Spark                                                                                        | Analyze a large graph using GraphX                                                                            | Required: (Chambers, Zaharia) Chapter 30; Recommended: (Sankar) Ch. 12         |            |      |
+| Session | Date   | Topics                                                                                                                                                      | Lab                                                                                                                                                                      | Reading                                                                        | Assignment                     | Quiz |
+| ------: | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :----------------------------- | :--- |
+|       1 | May 23 | Welcome to Big Data: Course Overview, What is Big Data, Distributed Computing, Cloud Computing, High Performance Computing, the Infrastructure of the Cloud | Create your cloud & GitHub accounts. Setup your environment. Install software. Create and configure SSH keys.                                                            |                                                                                |                                |      |
+|       2 | May 30 | AWS/Azure overview. Introduction to Hadoop & MapReduce: Hadoop, Distributed filesystems, MapReduce programming model                                        | Start and connect to your first virtual machine on the cloud. Start and connect to a Hadoop cluster, run built-in Hadoop examples, examine the different user interfaces | Required: (Bengfort, Kim) Chapter 2                                            | A01 released - due Sun 6/10    | Q01  |
+|       3 | Jun 06 | Hadoop Streaming                                                                                                                                            | Run the “Hello World” of Hadoop, the word count using Hadoop Streaming                                                                                                   | Required: (Bengfort, Kim) Ch. 3                                                |                                | Q02  |
+|       4 | Jun 13 | Higher Level APIs: Pig and Hive                                                                                                                             | Store a dataset in a Hive table, Run and example Pig job                                                                                                                 | Required: (Bengfort, Kim) Ch. 6,8                                              | L02 released - due Sun 6/24    |      |
+|       5 | Jun 20 | Introduction to Spark: What is Spark, Resilient Distributed Datasets, PySpark                                                                               | Start a PySpark session, Create RDDs, Operate on RDDs                                                                                                                    | Required: (Chambers, Zaharia) Ch. 1-3, 12, 32; Recommended: (Sankar) p.122-126 |                                | Q03  |
+|       6 | Jun 27 | SparkSQL: SQL Review, Intro to SparkSQL                                                                                                                     | Perform operations on Spark dataframes using SparkSQL                                                                                                                    | Required: (Chambers, Zaharia) Ch. 10; Recommended: (Sankar) Ch. 8              | A03 released - due Sunday 7/15 |      |
+|       7 | Jul 11 | Working with Streaming Datasets: Spark Streaming                                                                                                            | Run real-time analytics on a data stream using Spark Streaming                                                                                                           | Required: (Chambers, Zaharia) Ch. 20, 21                                       |                                | Q04  |
+|       8 | Jul 18 | Machine Learning with Big Data: SparkML, Issues with ML algorithms on large datasets                                                                        | Build a predictive model with SparkML                                                                                                                                    | Required: (Chambers, Zaharia) Ch. 24, 25; Recommended: (Sankar) Ch. 11         | A04 released - due Sun 7/29    |      |
+|       9 | Jul 25 | Working with Graph Datasets: GraphX API for Spark                                                                                                           | Analyze a large graph using GraphX                                                                                                                                       | Required: (Chambers, Zaharia) Chapter 30; Recommended: (Sankar) Ch. 12         |                                | Q05  |
+|      10 | Aug 01 | TBD                                                                                                                                                         | TBD                                                                                                                                                                      | TBD                                                                            |                                |      |
 
 **Class will not meet on Wednesday, July 4 (Independence Day Holiday).**
 
@@ -247,8 +247,8 @@ to the class. We may also have a guest lecturer from time to time.
     tiring.
   - **Computer Usage:** You must bring your laptop to class to work on
     labs. Please refrain from other activities.
-  - **E-mail:** We will try to respond to email within 24. Please use
-    email for personal discussions and not for homework, material or
+  - **E-mail:** We will try to respond to email within 24 hours. Please
+    use email for personal discussions and not for homework, material or
     techincal questions. See next bullet:
   - **Online Discussion Boards:** Please use the discussion board on
     Blackboard for questions about the course, homework assignments,
@@ -309,7 +309,7 @@ limited collaboration is allowed.
   - You must do all your work on your own cloud resources - this will be
     checked
 
-# University Support Services
+# University Policies and Support Services
 
 ## Religious Accommodation
 
