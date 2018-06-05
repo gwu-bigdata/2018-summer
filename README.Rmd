@@ -1,7 +1,7 @@
 ---
 output:
   md_document:
-    variant: gfm
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
@@ -17,8 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 - **Instructors:** Marck Vaisman (marck at gwu.edu)
 - **Classroom:** Duques 254
 - **Time:** Wednesday 6:00-9:00pm
-- **TA's:** Madison Turano (madly9@ at gwmail.gwu.edu)
-- **TA Office Hours:** TBD
+- **TA's:** Madison Turano (madly9 at gwmail.gwu.edu)
+- **TA Office Hours:** Monday evenings
 
 ## Course Description
 
@@ -102,7 +102,7 @@ Every class session will have a lecture portion and many sessions will have an i
 
 ## Quizzes
 
-You will take online quizzes about the topics/ideas discussed in class and from the readings. The purpose of the quizzes is to reinforce your knowledge about the tools and platform and also to help you remember the nomenclature and terms used in class. The quizzes will be online through [Blackboard](https://blackboard.gwu.edu) and you can take them at your convenience within the established time window. In lieu of a final exam, there will be a longer in-class quiz that is worth more points during the last class session.
+You will take online quizzes about the topics/ideas discussed in class and from the readings. The purpose of the quizzes is to reinforce your knowledge about the tools and platform and also to help you remember the nomenclature and terms used in class. The quizzes will be online through [Blackboard](https://blackboard.gwu.edu) and you can take them at your convenience within the established time window.
 
 ## Assignments
 

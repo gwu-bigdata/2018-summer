@@ -17,16 +17,16 @@ l02 <- tibble(
   title_topic = "AWS/Azure overview. Introduction to Hadoop & MapReduce: Hadoop, Distributed filesystems, MapReduce programming model",
   lab = "Start and connect to your first virtual machine on the cloud. Start and connect to a Hadoop cluster, run built-in Hadoop examples, examine the different user interfaces",
   reading = "Required: (Bengfort, Kim) Chapter 2",
-  assignment = "A01 released - due Sun 6/10 ",
-  quiz = "Q01"
+  assignment = "",
+  quiz = ""
 )
 
 l03 <- tibble(
   title_topic = "Hadoop Streaming",
   lab = "Run the \"Hello World\" of Hadoop, the word count using Hadoop Streaming",
   reading = "Required: (Bengfort, Kim) Ch. 3",
-  assignment = "",
-  quiz = "Q02"
+  assignment = "A01 released - due Sun 6/17",
+  quiz = "Q01"
 )
 
 l04 <- tibble(
@@ -34,7 +34,7 @@ l04 <- tibble(
   lab = "Store a dataset in a Hive table, Run and example Pig job",
   reading = "Required: (Bengfort, Kim) Ch. 6,8",
   assignment = "L02 released - due Sun 6/24",
-  quiz = ""
+  quiz = "Q02"
 )
 
 l05 <- tibble(
