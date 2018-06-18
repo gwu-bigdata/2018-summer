@@ -48,7 +48,7 @@ l05 <- tibble(
 l06 <- tibble(
   title_topic = "SparkSQL: SQL Review, Intro to SparkSQL",
   lab = "Perform operations on Spark dataframes using SparkSQL",
-  reading = "Required: (Chambers, Zaharia) Ch. 10; Recommended: (Sankar) Ch. 8",
+  reading = "Required: (Chambers, Zaharia) Ch. 4, 5, 10, 11; Recommended: (Sankar) Ch. 8",
   assignment = "A03 released - due Sunday 7/15",
   quiz = ""
 )

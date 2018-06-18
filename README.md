@@ -1,4 +1,4 @@
-**This syllabus is effective as of Tuesday, June 05, 2018 at 11:02 AM**
+**This syllabus is effective as of Monday, June 18, 2018 at 05:40 PM**
 
 DNSC 6290 Section 12<br/> Big Data <br/> the George Washington University <br/> Summer 2018
 ===========================================================================================
@@ -212,7 +212,7 @@ This calendar is subject to change. We will make make any changes known in advan
 <td align="left">Jun 27</td>
 <td align="left">SparkSQL: SQL Review, Intro to SparkSQL</td>
 <td align="left">Perform operations on Spark dataframes using SparkSQL</td>
-<td align="left">Required: (Chambers, Zaharia) Ch. 10; Recommended: (Sankar) Ch. 8</td>
+<td align="left">Required: (Chambers, Zaharia) Ch. 4, 5, 10, 11; Recommended: (Sankar) Ch. 8</td>
 <td align="left">A03 released - due Sunday 7/15</td>
 <td align="left"></td>
 </tr>
